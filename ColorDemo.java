@@ -53,6 +53,7 @@ public class ColorDemo {
 	 * Prints the RGB values of a given color, using the format "(rrr,ggg,bbb)". 
 	 * @param c - the given color
 	 */
+	Color c = new Color(255, 100, 20);
 	public static void print(Color c) {
 	    System.out.print("(");
 		System.out.printf("%3s,", c.getRed());   // Prints the red component
